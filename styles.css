@@ -1,13 +1,13 @@
 /* VARIABLES */
 :root {
     /* colors */
-    --color-red-dark: #ff000080;
-    --color-orange-dark: #ff77005e;
-    --color-red-vibrant: #ff0000;
-    --color-orange-vibrant: #ff7700;
+    --color-red-dark: #00ff0080;
+    --color-orange-dark: #00ffaa5e;
+    --color-red-vibrant: #00ff00;
+    --color-orange-vibrant: #00ffb3;
     --text-color-white: #ffffff;
     --secondary-color-black: #010108;
-    --text-color-white-dark: #930000;
+    --text-color-white-dark: #189300;
     /* gradients */
     --radial-gradient-red: radial-gradient(circle at 0 0, var(--color-red-dark), transparent 40%);
     --radial-gradient-orange: radial-gradient(circle at 100% 0, var(--color-orange-dark), transparent 40%);
@@ -225,7 +225,7 @@ body.hide-overflow {
 #number {
     margin: 0;
     padding: 10px;
-    font-size: 20vw;
+    font-size: 20rem;
     font-style: italic;
     font-weight: 700;
     background: linear-gradient(to right, var(--color-orange-vibrant), var(--color-red-vibrant), var(--color-orange-vibrant));

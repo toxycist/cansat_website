@@ -11,7 +11,7 @@ const loadMouseFollower = () => {
 const loadEventListeners = () => {};
 
 const loadBallAnimation = () => {
-  const colors = ["#ff000080", "#ff77005e", "#ff0000", "#ff7700", "#930000"];
+  const colors = ["#00ff0080", "#00ffaa5e", "#00ff00", "#00ffb3", "#189300"];
   const avgBallSize = 10; // in rem
   // number of balls present in the page
   const numBalls = 30;
